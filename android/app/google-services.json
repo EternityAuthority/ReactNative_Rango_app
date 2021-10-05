@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "463710619404",
+    "firebase_url": "https://langoo-752eb.firebaseio.com",
+    "project_id": "langoo-752eb",
+    "storage_bucket": "langoo-752eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463710619404:android:38c951ebc405a5b4546b29",
+        "android_client_info": {
+          "package_name": "net.langoo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463710619404-0o40drh2gbdn8ur0gh0f9b1tv3k3itm1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwFAomakSi2_MUqDp_u0220PYfgxlJheE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463710619404-0o40drh2gbdn8ur0gh0f9b1tv3k3itm1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

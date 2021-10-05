@@ -1,0 +1,902 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* langooTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* langooTests.m */; };
+		04AD58EC6DC6496592977212 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CAD6D1C8875483FACA47145 /* Entypo.ttf */; };
+		12F132FF6B734A3F8467E7D1 /* Cabin-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8402CF5B16B54BDFAF5B22D7 /* Cabin-Regular.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		14BB5285729E4E6EBC70D2CA /* Arsenal-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32ADA5A1F9614F68AEF145CD /* Arsenal-Regular.ttf */; };
+		180D4EFF25F176880064D423 /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F63729965EC24F7BB2C57D6E /* icomoon.ttf */; };
+		1811D4962630A168005C1199 /* levelup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1811D4952630A168005C1199 /* levelup.mp3 */; };
+		182D9BD3261E28BC007E7387 /* earnedstar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 182D9BD2261E28BC007E7387 /* earnedstar.mp3 */; };
+		182EC2FD2618769B0005BC69 /* silver.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 182EC2FC2618769B0005BC69 /* silver.mp3 */; };
+		182EC2FF261876B10005BC69 /* platinum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 182EC2FE261876B10005BC69 /* platinum.mp3 */; };
+		182EC301261876C70005BC69 /* gold.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 182EC300261876C70005BC69 /* gold.mp3 */; };
+		183F4BCA260EFC5100EA4585 /* wronganswer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 183F4BC9260EFC5100EA4585 /* wronganswer.mp3 */; };
+		183F4BCE260EFC6700EA4585 /* correctanswer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 183F4BCD260EFC6700EA4585 /* correctanswer.mp3 */; };
+		186B774825753E1E006E362D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 186B774725753E1E006E362D /* GoogleService-Info.plist */; };
+		186B77B225755633006E362D /* emptyfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186B77B125755633006E362D /* emptyfile.swift */; };
+		18A0C9712671D9E600FFB1F1 /* unitfailed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18A0C9702671D9E600FFB1F1 /* unitfailed.mp3 */; };
+		18DA3F7326308FBC0022D02B /* passedunitreward.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18DA3F7226308FBC0022D02B /* passedunitreward.mp3 */; };
+		1E8195C3BCE64487B607A770 /* libPods-langoo-langooTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320C617B4492C89088874C0C /* libPods-langoo-langooTests.a */; };
+		24FBA5BF9EFC4EA9A3122B53 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F35B728E228443C6864A3CD0 /* AntDesign.ttf */; };
+		2BE73C60D86D47D9A1A73173 /* Arsenal-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFBA9AADA06B41F98FB195FB /* Arsenal-Bold.ttf */; };
+		3993E5FA4D26B032BE6BF455 /* libPods-langoo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D586479378A59D36E0CFD7 /* libPods-langoo.a */; };
+		3A9D971B728D4731B8177192 /* Tajawal-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25F113E6418D4546A79D58D8 /* Tajawal-Bold.ttf */; };
+		3D503B1183C846EB9AC53560 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1A3B663F24D401AA5A84725 /* MaterialCommunityIcons.ttf */; };
+		47947715CF8E420FAC08F621 /* Kanit-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E747E0B2A934852A88B52BD /* Kanit-SemiBold.ttf */; };
+		518F1C1359BE438FBA3C01EF /* HindSiliguri-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1481FE60A07D458F99103BE6 /* HindSiliguri-Bold.ttf */; };
+		52830244087C44CF801521B0 /* Cabin-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0672A54AA5E34F27AD6AE7DE /* Cabin-Bold.ttf */; };
+		5563C9A8576D47C3AB2FCE31 /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6573035F61B94DA8AF6CC6DC /* rubicon-icon-font.ttf */; };
+		56050016872F4E96B3697F34 /* Heebo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2106F10ADA4544BFB5146D17 /* Heebo-Regular.ttf */; };
+		5A6E5686D3504AC08AF5A240 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 330C68B4D894473FA4FDA942 /* Foundation.ttf */; };
+		6780EC5867CF42FEB9AC93CE /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDCCE371E6EF4277A412C187 /* Montserrat-Bold.ttf */; };
+		6A2BD9967CA94A6F9270E4B4 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59341080CA2F45CCB5DF064E /* Montserrat-Regular.ttf */; };
+		6C52E81B1A054E8CB19AB2FF /* Tajawal-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93B645D2CE184F5F8282B5C6 /* Tajawal-Regular.ttf */; };
+		6D32CC9EE20246D4BA010FA5 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D9216D514D54B4B98ED6B62 /* FontAwesome5_Brands.ttf */; };
+		789A34C8B4254052A460D6FC /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41BD5EBF32424D738E63E2DB /* Roboto.ttf */; };
+		7AF73B6B45584BA8B0B6E598 /* Heebo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF011BAC6ECC46D3AC4477C5 /* Heebo-Bold.ttf */; };
+		7B82E0B9E0CC4659AA1D1079 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCAF9B41FE8E43AFB2996AF8 /* EvilIcons.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		88DFB76CE58A44DD9BA0D833 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A94B1F6338094096AC7DF504 /* FontAwesome.ttf */; };
+		8E68C1BF5C2F491F9B070E54 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7714E6C24044AEF93D4660B /* Montserrat-SemiBold.ttf */; };
+		8FD823B895AB418791519E94 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5DF776893524E66AA4867A3 /* Montserrat-Light.ttf */; };
+		960AA417D8CD44879958855A /* Kanit-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 931BDE5BF7534C9AA98D6DA4 /* Kanit-Bold.ttf */; };
+		9DD574EF64874BD4BDEFF3D3 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08A29F55D706453E94D789E8 /* MaterialIcons.ttf */; };
+		9FFAB37D0E684F26A2A40E6C /* HindSiliguri-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D39500863FD3407E8B38627E /* HindSiliguri-SemiBold.ttf */; };
+		A416772BA24145E7972A230E /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4E2817AC1A6404897A8171A /* Octicons.ttf */; };
+		A49AC7B1A53C4E879A604C30 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBFB6E1BE4D245C7A1DF2298 /* Zocial.ttf */; };
+		A9BB3FB2DAD740A1A19BB0D1 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7220CE21136B4C118A3DBA49 /* Ionicons.ttf */; };
+		AA1BE5539E694D728B4D8C0D /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ECA1D32F430445C4B1A81B88 /* Fontisto.ttf */; };
+		B9C957606FEB47318EBCE71F /* Kanit-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 68903ACDF9A748C0B82CDD42 /* Kanit-Regular.ttf */; };
+		C7243E6DD92C45C0A78ED5C9 /* Tajawal-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F6E4AE4355045478C2A23C5 /* Tajawal-Medium.ttf */; };
+		C9CBAE0C35B343C490718845 /* Cabin-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 525CD5897B9249B7BD7B3059 /* Cabin-SemiBold.ttf */; };
+		D2896FDD6B63496DA7D1684E /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A87A4C1238A84D3895B3048B /* FontAwesome5_Regular.ttf */; };
+		DAFA781484F04C98939E74C3 /* Heebo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A570097EB67E46BDB271C4FB /* Heebo-SemiBold.ttf */; };
+		DDDFC0ADFB07472BBDDD02B3 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C3620B6491A46A885606979 /* FontAwesome5_Solid.ttf */; };
+		E2153BE413A5440B8668291E /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D5E60E3BAE7478190598389 /* SimpleLineIcons.ttf */; };
+		E22D378F97C548C389E1800E /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42641499FFA14A51B5FA8A5C /* Feather.ttf */; };
+		F232D0647B054B14A7DC8557 /* HindSiliguri-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3FE288C171E4EBAB81005D5 /* HindSiliguri-Regular.ttf */; };
+		FE3A455C7F3B4B23A017FAD0 /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BE32E19508D4117AD9C898E /* Roboto_medium.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = langoo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* langooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = langooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* langooTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = langooTests.m; sourceTree = "<group>"; };
+		0672A54AA5E34F27AD6AE7DE /* Cabin-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin-Bold.ttf"; path = "../src/assets/fonts/Cabin-Bold.ttf"; sourceTree = "<group>"; };
+		08A29F55D706453E94D789E8 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		0D9216D514D54B4B98ED6B62 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* langoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = langoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = langoo/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = langoo/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = langoo/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = langoo/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = langoo/main.m; sourceTree = "<group>"; };
+		1481FE60A07D458F99103BE6 /* HindSiliguri-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HindSiliguri-Bold.ttf"; path = "../src/assets/fonts/HindSiliguri-Bold.ttf"; sourceTree = "<group>"; };
+		1811D4952630A168005C1199 /* levelup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = levelup.mp3; path = "../../../../../Downloads/Sound effects & Animations/28- Get new rank/levelup.mp3"; sourceTree = "<group>"; };
+		1821055627540567783EF69F /* Pods-langoo-langooTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-langoo-langooTests.debug.xcconfig"; path = "Target Support Files/Pods-langoo-langooTests/Pods-langoo-langooTests.debug.xcconfig"; sourceTree = "<group>"; };
+		182D9BD2261E28BC007E7387 /* earnedstar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = earnedstar.mp3; sourceTree = "<group>"; };
+		182EC2FC2618769B0005BC69 /* silver.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = silver.mp3; sourceTree = "<group>"; };
+		182EC2FE261876B10005BC69 /* platinum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = platinum.mp3; sourceTree = "<group>"; };
+		182EC300261876C70005BC69 /* gold.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gold.mp3; sourceTree = "<group>"; };
+		183F4BC9260EFC5100EA4585 /* wronganswer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wronganswer.mp3; sourceTree = "<group>"; };
+		183F4BCD260EFC6700EA4585 /* correctanswer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correctanswer.mp3; sourceTree = "<group>"; };
+		186B774725753E1E006E362D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		186B77B025755633006E362D /* langoo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "langoo-Bridging-Header.h"; sourceTree = "<group>"; };
+		186B77B125755633006E362D /* emptyfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emptyfile.swift; sourceTree = "<group>"; };
+		18A0C9702671D9E600FFB1F1 /* unitfailed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = unitfailed.mp3; sourceTree = "<group>"; };
+		18C5E1CF2577C96D003B538D /* langoo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = langoo.entitlements; path = langoo/langoo.entitlements; sourceTree = "<group>"; };
+		18DA3F7226308FBC0022D02B /* passedunitreward.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = passedunitreward.mp3; sourceTree = "<group>"; };
+		1C3620B6491A46A885606979 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		1C531A39AA89D929F20AA2B4 /* Pods-langoo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-langoo.release.xcconfig"; path = "Target Support Files/Pods-langoo/Pods-langoo.release.xcconfig"; sourceTree = "<group>"; };
+		2106F10ADA4544BFB5146D17 /* Heebo-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Heebo-Regular.ttf"; path = "../src/assets/fonts/Heebo-Regular.ttf"; sourceTree = "<group>"; };
+		25F113E6418D4546A79D58D8 /* Tajawal-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tajawal-Bold.ttf"; path = "../src/assets/fonts/Tajawal-Bold.ttf"; sourceTree = "<group>"; };
+		2BE32E19508D4117AD9C898E /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
+		2CAD6D1C8875483FACA47145 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		320C617B4492C89088874C0C /* libPods-langoo-langooTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-langoo-langooTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32ADA5A1F9614F68AEF145CD /* Arsenal-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Arsenal-Regular.ttf"; path = "../src/assets/fonts/Arsenal-Regular.ttf"; sourceTree = "<group>"; };
+		330C68B4D894473FA4FDA942 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		41BD5EBF32424D738E63E2DB /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
+		42641499FFA14A51B5FA8A5C /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		4D5E60E3BAE7478190598389 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		4E747E0B2A934852A88B52BD /* Kanit-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Kanit-SemiBold.ttf"; path = "../src/assets/fonts/Kanit-SemiBold.ttf"; sourceTree = "<group>"; };
+		525CD5897B9249B7BD7B3059 /* Cabin-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin-SemiBold.ttf"; path = "../src/assets/fonts/Cabin-SemiBold.ttf"; sourceTree = "<group>"; };
+		59341080CA2F45CCB5DF064E /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.ttf"; path = "../src/assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		6573035F61B94DA8AF6CC6DC /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
+		68903ACDF9A748C0B82CDD42 /* Kanit-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Kanit-Regular.ttf"; path = "../src/assets/fonts/Kanit-Regular.ttf"; sourceTree = "<group>"; };
+		69EAC64317F29C082A3181E3 /* Pods-langoo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-langoo.debug.xcconfig"; path = "Target Support Files/Pods-langoo/Pods-langoo.debug.xcconfig"; sourceTree = "<group>"; };
+		7220CE21136B4C118A3DBA49 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = langoo/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8402CF5B16B54BDFAF5B22D7 /* Cabin-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cabin-Regular.ttf"; path = "../src/assets/fonts/Cabin-Regular.ttf"; sourceTree = "<group>"; };
+		931BDE5BF7534C9AA98D6DA4 /* Kanit-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Kanit-Bold.ttf"; path = "../src/assets/fonts/Kanit-Bold.ttf"; sourceTree = "<group>"; };
+		93B645D2CE184F5F8282B5C6 /* Tajawal-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tajawal-Regular.ttf"; path = "../src/assets/fonts/Tajawal-Regular.ttf"; sourceTree = "<group>"; };
+		9F6E4AE4355045478C2A23C5 /* Tajawal-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Tajawal-Medium.ttf"; path = "../src/assets/fonts/Tajawal-Medium.ttf"; sourceTree = "<group>"; };
+		A3FE288C171E4EBAB81005D5 /* HindSiliguri-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HindSiliguri-Regular.ttf"; path = "../src/assets/fonts/HindSiliguri-Regular.ttf"; sourceTree = "<group>"; };
+		A570097EB67E46BDB271C4FB /* Heebo-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Heebo-SemiBold.ttf"; path = "../src/assets/fonts/Heebo-SemiBold.ttf"; sourceTree = "<group>"; };
+		A87A4C1238A84D3895B3048B /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		A94B1F6338094096AC7DF504 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		B5DF776893524E66AA4867A3 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Light.ttf"; path = "../src/assets/fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		C1A3B663F24D401AA5A84725 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		C9D586479378A59D36E0CFD7 /* libPods-langoo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-langoo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCAF9B41FE8E43AFB2996AF8 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		D39500863FD3407E8B38627E /* HindSiliguri-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HindSiliguri-SemiBold.ttf"; path = "../src/assets/fonts/HindSiliguri-SemiBold.ttf"; sourceTree = "<group>"; };
+		D7B6525551D444A0A3E05FA2 /* flags.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = flags.ttf; path = ../src/assets/fonts/flags.ttf; sourceTree = "<group>"; };
+		DDCCE371E6EF4277A412C187 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Bold.ttf"; path = "../src/assets/fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		DFBA9AADA06B41F98FB195FB /* Arsenal-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Arsenal-Bold.ttf"; path = "../src/assets/fonts/Arsenal-Bold.ttf"; sourceTree = "<group>"; };
+		EBFB6E1BE4D245C7A1DF2298 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		ECA1D32F430445C4B1A81B88 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/native-base/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		EF011BAC6ECC46D3AC4477C5 /* Heebo-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Heebo-Bold.ttf"; path = "../src/assets/fonts/Heebo-Bold.ttf"; sourceTree = "<group>"; };
+		F35B728E228443C6864A3CD0 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		F4E2817AC1A6404897A8171A /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		F5739624ACC08331B900668B /* Pods-langoo-langooTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-langoo-langooTests.release.xcconfig"; path = "Target Support Files/Pods-langoo-langooTests/Pods-langoo-langooTests.release.xcconfig"; sourceTree = "<group>"; };
+		F63729965EC24F7BB2C57D6E /* icomoon.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = icomoon.ttf; path = ../src/assets/fonts/icomoon.ttf; sourceTree = "<group>"; };
+		F7714E6C24044AEF93D4660B /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBold.ttf"; path = "../src/assets/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8195C3BCE64487B607A770 /* libPods-langoo-langooTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3993E5FA4D26B032BE6BF455 /* libPods-langoo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* langooTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* langooTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = langooTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* langoo */ = {
+			isa = PBXGroup;
+			children = (
+				18A0C9702671D9E600FFB1F1 /* unitfailed.mp3 */,
+				1811D4952630A168005C1199 /* levelup.mp3 */,
+				18DA3F7226308FBC0022D02B /* passedunitreward.mp3 */,
+				182D9BD2261E28BC007E7387 /* earnedstar.mp3 */,
+				182EC300261876C70005BC69 /* gold.mp3 */,
+				182EC2FE261876B10005BC69 /* platinum.mp3 */,
+				182EC2FC2618769B0005BC69 /* silver.mp3 */,
+				183F4BCD260EFC6700EA4585 /* correctanswer.mp3 */,
+				183F4BC9260EFC5100EA4585 /* wronganswer.mp3 */,
+				18C5E1CF2577C96D003B538D /* langoo.entitlements */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				186B77B125755633006E362D /* emptyfile.swift */,
+				186B77B025755633006E362D /* langoo-Bridging-Header.h */,
+			);
+			name = langoo;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				C9D586479378A59D36E0CFD7 /* libPods-langoo.a */,
+				320C617B4492C89088874C0C /* libPods-langoo-langooTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38877B041FA1A8759F1766CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69EAC64317F29C082A3181E3 /* Pods-langoo.debug.xcconfig */,
+				1C531A39AA89D929F20AA2B4 /* Pods-langoo.release.xcconfig */,
+				1821055627540567783EF69F /* Pods-langoo-langooTests.debug.xcconfig */,
+				F5739624ACC08331B900668B /* Pods-langoo-langooTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				186B774725753E1E006E362D /* GoogleService-Info.plist */,
+				13B07FAE1A68108700A75B9A /* langoo */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* langooTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				38877B041FA1A8759F1766CD /* Pods */,
+				D0D0AEBC169E4DC483CA57BE /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* langoo.app */,
+				00E356EE1AD99517003FC87E /* langooTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0D0AEBC169E4DC483CA57BE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F35B728E228443C6864A3CD0 /* AntDesign.ttf */,
+				2CAD6D1C8875483FACA47145 /* Entypo.ttf */,
+				CCAF9B41FE8E43AFB2996AF8 /* EvilIcons.ttf */,
+				42641499FFA14A51B5FA8A5C /* Feather.ttf */,
+				A94B1F6338094096AC7DF504 /* FontAwesome.ttf */,
+				0D9216D514D54B4B98ED6B62 /* FontAwesome5_Brands.ttf */,
+				A87A4C1238A84D3895B3048B /* FontAwesome5_Regular.ttf */,
+				1C3620B6491A46A885606979 /* FontAwesome5_Solid.ttf */,
+				ECA1D32F430445C4B1A81B88 /* Fontisto.ttf */,
+				330C68B4D894473FA4FDA942 /* Foundation.ttf */,
+				7220CE21136B4C118A3DBA49 /* Ionicons.ttf */,
+				C1A3B663F24D401AA5A84725 /* MaterialCommunityIcons.ttf */,
+				08A29F55D706453E94D789E8 /* MaterialIcons.ttf */,
+				F4E2817AC1A6404897A8171A /* Octicons.ttf */,
+				2BE32E19508D4117AD9C898E /* Roboto_medium.ttf */,
+				41BD5EBF32424D738E63E2DB /* Roboto.ttf */,
+				6573035F61B94DA8AF6CC6DC /* rubicon-icon-font.ttf */,
+				4D5E60E3BAE7478190598389 /* SimpleLineIcons.ttf */,
+				EBFB6E1BE4D245C7A1DF2298 /* Zocial.ttf */,
+				DDCCE371E6EF4277A412C187 /* Montserrat-Bold.ttf */,
+				B5DF776893524E66AA4867A3 /* Montserrat-Light.ttf */,
+				59341080CA2F45CCB5DF064E /* Montserrat-Regular.ttf */,
+				F7714E6C24044AEF93D4660B /* Montserrat-SemiBold.ttf */,
+				DFBA9AADA06B41F98FB195FB /* Arsenal-Bold.ttf */,
+				32ADA5A1F9614F68AEF145CD /* Arsenal-Regular.ttf */,
+				0672A54AA5E34F27AD6AE7DE /* Cabin-Bold.ttf */,
+				8402CF5B16B54BDFAF5B22D7 /* Cabin-Regular.ttf */,
+				525CD5897B9249B7BD7B3059 /* Cabin-SemiBold.ttf */,
+				EF011BAC6ECC46D3AC4477C5 /* Heebo-Bold.ttf */,
+				2106F10ADA4544BFB5146D17 /* Heebo-Regular.ttf */,
+				A570097EB67E46BDB271C4FB /* Heebo-SemiBold.ttf */,
+				1481FE60A07D458F99103BE6 /* HindSiliguri-Bold.ttf */,
+				A3FE288C171E4EBAB81005D5 /* HindSiliguri-Regular.ttf */,
+				D39500863FD3407E8B38627E /* HindSiliguri-SemiBold.ttf */,
+				931BDE5BF7534C9AA98D6DA4 /* Kanit-Bold.ttf */,
+				68903ACDF9A748C0B82CDD42 /* Kanit-Regular.ttf */,
+				4E747E0B2A934852A88B52BD /* Kanit-SemiBold.ttf */,
+				25F113E6418D4546A79D58D8 /* Tajawal-Bold.ttf */,
+				9F6E4AE4355045478C2A23C5 /* Tajawal-Medium.ttf */,
+				93B645D2CE184F5F8282B5C6 /* Tajawal-Regular.ttf */,
+				F63729965EC24F7BB2C57D6E /* icomoon.ttf */,
+				D7B6525551D444A0A3E05FA2 /* flags.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* langooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "langooTests" */;
+			buildPhases = (
+				60B8E11B2D9BD5B79C752E3A /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				B2959D2830754F7D05AEDF0A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = langooTests;
+			productName = langooTests;
+			productReference = 00E356EE1AD99517003FC87E /* langooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* langoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "langoo" */;
+			buildPhases = (
+				F21C9FB20C311E58656515E2 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				C4536A4FED8E2D9ECE2D4237 /* [CP] Copy Pods Resources */,
+				687B643B9856F789276779AA /* [CP-User] [RNFB] Core Configuration */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = langoo;
+			productName = langoo;
+			productReference = 13B07F961A680F5B00A75B9A /* langoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = WN729PMHRS;
+						LastSwiftMigration = 1220;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "langoo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* langoo */,
+				00E356ED1AD99517003FC87E /* langooTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180D4EFF25F176880064D423 /* icomoon.ttf in Resources */,
+				183F4BCE260EFC6700EA4585 /* correctanswer.mp3 in Resources */,
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				182EC2FF261876B10005BC69 /* platinum.mp3 in Resources */,
+				24FBA5BF9EFC4EA9A3122B53 /* AntDesign.ttf in Resources */,
+				04AD58EC6DC6496592977212 /* Entypo.ttf in Resources */,
+				7B82E0B9E0CC4659AA1D1079 /* EvilIcons.ttf in Resources */,
+				E22D378F97C548C389E1800E /* Feather.ttf in Resources */,
+				88DFB76CE58A44DD9BA0D833 /* FontAwesome.ttf in Resources */,
+				6D32CC9EE20246D4BA010FA5 /* FontAwesome5_Brands.ttf in Resources */,
+				D2896FDD6B63496DA7D1684E /* FontAwesome5_Regular.ttf in Resources */,
+				182EC2FD2618769B0005BC69 /* silver.mp3 in Resources */,
+				DDDFC0ADFB07472BBDDD02B3 /* FontAwesome5_Solid.ttf in Resources */,
+				AA1BE5539E694D728B4D8C0D /* Fontisto.ttf in Resources */,
+				182D9BD3261E28BC007E7387 /* earnedstar.mp3 in Resources */,
+				5A6E5686D3504AC08AF5A240 /* Foundation.ttf in Resources */,
+				A9BB3FB2DAD740A1A19BB0D1 /* Ionicons.ttf in Resources */,
+				3D503B1183C846EB9AC53560 /* MaterialCommunityIcons.ttf in Resources */,
+				9DD574EF64874BD4BDEFF3D3 /* MaterialIcons.ttf in Resources */,
+				183F4BCA260EFC5100EA4585 /* wronganswer.mp3 in Resources */,
+				A416772BA24145E7972A230E /* Octicons.ttf in Resources */,
+				FE3A455C7F3B4B23A017FAD0 /* Roboto_medium.ttf in Resources */,
+				789A34C8B4254052A460D6FC /* Roboto.ttf in Resources */,
+				5563C9A8576D47C3AB2FCE31 /* rubicon-icon-font.ttf in Resources */,
+				186B774825753E1E006E362D /* GoogleService-Info.plist in Resources */,
+				E2153BE413A5440B8668291E /* SimpleLineIcons.ttf in Resources */,
+				A49AC7B1A53C4E879A604C30 /* Zocial.ttf in Resources */,
+				6780EC5867CF42FEB9AC93CE /* Montserrat-Bold.ttf in Resources */,
+				8FD823B895AB418791519E94 /* Montserrat-Light.ttf in Resources */,
+				6A2BD9967CA94A6F9270E4B4 /* Montserrat-Regular.ttf in Resources */,
+				8E68C1BF5C2F491F9B070E54 /* Montserrat-SemiBold.ttf in Resources */,
+				2BE73C60D86D47D9A1A73173 /* Arsenal-Bold.ttf in Resources */,
+				14BB5285729E4E6EBC70D2CA /* Arsenal-Regular.ttf in Resources */,
+				52830244087C44CF801521B0 /* Cabin-Bold.ttf in Resources */,
+				12F132FF6B734A3F8467E7D1 /* Cabin-Regular.ttf in Resources */,
+				C9CBAE0C35B343C490718845 /* Cabin-SemiBold.ttf in Resources */,
+				7AF73B6B45584BA8B0B6E598 /* Heebo-Bold.ttf in Resources */,
+				1811D4962630A168005C1199 /* levelup.mp3 in Resources */,
+				56050016872F4E96B3697F34 /* Heebo-Regular.ttf in Resources */,
+				DAFA781484F04C98939E74C3 /* Heebo-SemiBold.ttf in Resources */,
+				518F1C1359BE438FBA3C01EF /* HindSiliguri-Bold.ttf in Resources */,
+				F232D0647B054B14A7DC8557 /* HindSiliguri-Regular.ttf in Resources */,
+				182EC301261876C70005BC69 /* gold.mp3 in Resources */,
+				18A0C9712671D9E600FFB1F1 /* unitfailed.mp3 in Resources */,
+				9FFAB37D0E684F26A2A40E6C /* HindSiliguri-SemiBold.ttf in Resources */,
+				960AA417D8CD44879958855A /* Kanit-Bold.ttf in Resources */,
+				B9C957606FEB47318EBCE71F /* Kanit-Regular.ttf in Resources */,
+				47947715CF8E420FAC08F621 /* Kanit-SemiBold.ttf in Resources */,
+				3A9D971B728D4731B8177192 /* Tajawal-Bold.ttf in Resources */,
+				18DA3F7326308FBC0022D02B /* passedunitreward.mp3 in Resources */,
+				C7243E6DD92C45C0A78ED5C9 /* Tajawal-Medium.ttf in Resources */,
+				6C52E81B1A054E8CB19AB2FF /* Tajawal-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		60B8E11B2D9BD5B79C752E3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-langoo-langooTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		687B643B9856F789276779AA /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    _JSON_OUTPUT_BASE64=$(python -c 'import json,sys,base64;print(base64.b64encode(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"').read())['${_JSON_ROOT}'])))' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\n\n  # config.admob_delay_app_measurement_init\n  _ADMOB_DELAY_APP_MEASUREMENT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"admob_delay_app_measurement_init\")\n  if [[ $_ADMOB_DELAY_APP_MEASUREMENT == \"true\" ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GADDelayAppMeasurementInit\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"YES\")\n  fi\n\n  # config.admob_ios_app_id\n  _ADMOB_IOS_APP_ID=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"admob_ios_app_id\")\n  if [[ $_ADMOB_IOS_APP_ID ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GADApplicationIdentifier\")\n    _PLIST_ENTRY_TYPES+=(\"string\")\n    _PLIST_ENTRY_VALUES+=(\"$_ADMOB_IOS_APP_ID\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
+		};
+		B2959D2830754F7D05AEDF0A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-langoo-langooTests/Pods-langoo-langooTests-resources.sh",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/PersonalizedAdConsent/PersonalizedAdConsent.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/RNImageCropPicker/QBImagePicker.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TOCropViewController/TOCropViewControllerBundle.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++/gRPCCertificates-Cpp.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PersonalizedAdConsent.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QBImagePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TOCropViewControllerBundle.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates-Cpp.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-langoo-langooTests/Pods-langoo-langooTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4536A4FED8E2D9ECE2D4237 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-langoo/Pods-langoo-resources.sh",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/PersonalizedAdConsent/PersonalizedAdConsent.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/RNImageCropPicker/QBImagePicker.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TOCropViewController/TOCropViewControllerBundle.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++/gRPCCertificates-Cpp.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PersonalizedAdConsent.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QBImagePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TOCropViewControllerBundle.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates-Cpp.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-langoo/Pods-langoo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F21C9FB20C311E58656515E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-langoo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* langooTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				186B77B225755633006E362D /* emptyfile.swift in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* langoo */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1821055627540567783EF69F /* Pods-langoo-langooTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = langooTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/langoo.app/langoo";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5739624ACC08331B900668B /* Pods-langoo-langooTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = langooTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/langoo.app/langoo";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69EAC64317F29C082A3181E3 /* Pods-langoo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = langoo/langoo.entitlements;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = WN729PMHRS;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = langoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.langoo;
+				PRODUCT_NAME = langoo;
+				SWIFT_OBJC_BRIDGING_HEADER = "langoo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C531A39AA89D929F20AA2B4 /* Pods-langoo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = langoo/langoo.entitlements;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_TEAM = WN729PMHRS;
+				INFOPLIST_FILE = langoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.langoo;
+				PRODUCT_NAME = langoo;
+				SWIFT_OBJC_BRIDGING_HEADER = "langoo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "langooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "langoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "langoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

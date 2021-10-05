@@ -1,0 +1,7 @@
+{
+  "react-native": {
+    "admob_android_app_id": "ca-app-pub-1429195201520708~7190144945",
+    "admob_ios_app_id": "ca-app-pub-1429195201520708~4081584113",
+    "admob_delay_app_measurement_init": true
+  }
+}
